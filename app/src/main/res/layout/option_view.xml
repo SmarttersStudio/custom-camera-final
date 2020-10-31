@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="end|center_vertical">
+<TextView
+    android:text="Option"
+    android:id="@+id/optionText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="8dp"
+        android:layout_height="0dp"
+        android:id="@+id/optionSpace"/>
+    <ImageView
+        android:id="@+id/optionIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"/>
+</LinearLayout>
